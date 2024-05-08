@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Third Web Page</title>
+</head>
+<body>
+    <!-- contianer -->
+    <div id="container">
+         <!-- header -->
+        <header>
+            My Website Brand
+        </header>
+        <nav>
+             <!-- navigation -->
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="page2.html">About</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="page3.html">Contact</a></li>
+            </ul>
+        </nav>
+        <main>
+             <!-- Main content -->
+            <h1>My Third Heading</h1>
+            <p>My Third Heading</p>
+            <img src="images/central_park.jpg" alt="Central Park Image" width="500">
+            <!--Form-->
+           <form actions="/signup" method="post">
+            <fieldset>
+                <legend>User Personal Information</legend>
+                <label>Enter your full name</label><br>
+                <input type="text" name="name"><br>
+                <label>Enter your email</label><br>
+                <input type="email" name="email"><br>
+                <label>Enter your phone</label><br>
+                <input type="tel" name="phone"><br>
+
+                <label>Select your geneder</label><br>
+                <input type="radio" name="gender" value="male">Male
+                <input type="radio" name="gender" value="female">Female <br>
+
+                <label>How should we contact you?</label><br>
+                <select>
+                    <option value="email">Email</option>
+                    <option value="phone">Phone</option>
+                </select>
+
+                <br>
+                <label>Tell us the reason for your visit today.</label><br>
+                <textarea rows="5" cols="30"></textarea><br>
+
+                <input type="submit" value="Sign Up">
+            </fieldset>
+           </form>
+        </main>
+        <footer>
+             <!-- Footer -->
+            &copy; Copyright 2024
+        </footer>
+    </div>
+</body>
+</html>
