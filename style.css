@@ -39,12 +39,55 @@ nav {
 }
 /* style the main content area */
 main {
-  
-}
+  margin: 50px;
+  }
 main h1{
     color: rgb(129, 141, 179);
     font-family: Arial, Helvetica, sans-serif;
 }
+table {
+margin-top: 35px;
+}
+table, caption, th, td {
+    border: 1px solid #000;
+}
+th, td {
+    width: 150px;
+    height: 35px;
+    text-align: center;
+}
+caption {
+    text-transform: uppercase;
+    font-weight: 600;
+    height: 40px;
+    padding-top: 15px;
+    color: #753a30;
+}
+/* Forms style in main area */
+label {
+    display: block;
+    margin: 15px 0 0 0; /* top, right, bottom, left */
+}
+input, textarea {
+    width: 300px;
+}
+input[type="radio"]{ /* attribute selector */
+width: 25px;
+}
+input[type="submit"]{ /* attribute selector */
+    display: block;
+    margin: 20px 0 10px 0;
+    width: 100px;
+    background-color: #48322f;
+    border: 0px;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    }
+    input:focus {
+        background-color: #b0b2b9;
+    }
     /* styling the footer */
     footer {
         height: 40px;
