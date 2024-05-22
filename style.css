@@ -88,6 +88,10 @@ input[type="submit"]{ /* attribute selector */
     input:focus {
         background-color: #b0b2b9;
     }
+    /*styling the album */
+    #album #photo img {
+        width: 400px;
+    }
     /* styling the footer */
     footer {
         height: 40px;
